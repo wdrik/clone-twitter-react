@@ -23,7 +23,7 @@ const ProfilePage: React.FC = () => {
         <h2>@teste</h2>
 
         <p>
-          Developer at <a href="https://app.rocketseat.com">@Rocketseat</a>
+          Developer at <a href="https://rocketseat.com">@Rocketseat</a>
         </p>
 
         <ul>

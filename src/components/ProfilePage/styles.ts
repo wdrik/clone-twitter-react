@@ -51,6 +51,35 @@ export const ProfileData = styled.div`
     font-size: 15px;
     color: var(--grey);
   }
+
+  > p {
+    font-size: 15px;
+    margin-top: 11px;
+
+    > a {
+      text-decoration: none;
+      color: var(--twitter);
+    }
+  }
+
+  > ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    > li {
+      font-size: 15px;
+      color: var(--gray);
+
+      display: flex;
+      align-items: center;
+
+      > svg {
+        fill: var(--gray);
+        margin-right: 5px;
+      }
+    }
+  }
 `;
 
 const iconCSS = css`
@@ -68,4 +97,15 @@ export const CakeIcon = styled(Cake)`
   ${iconCSS}
 `;
 
-export const Followage = styled.div``;
+export const Followage = styled.div`
+  display: flex;
+
+  > span {
+    font-size: 15px;
+    color: var(--gray);
+
+    & + span {
+      margin-left: 20px;
+    }
+  }
+`;
